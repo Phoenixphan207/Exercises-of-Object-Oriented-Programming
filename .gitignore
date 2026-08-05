@@ -1,0 +1,11 @@
+# Chặn tất cả các file thực thi .exe
+*.exe
+
+# Chặn các file rác / file tạm do trình biên dịch C++ tạo ra
+*.o
+*.obj
+*.out
+
+# Chặn thư mục cấu hình của VS Code hoặc IDE (nếu có)
+.vscode/
+.idea/
