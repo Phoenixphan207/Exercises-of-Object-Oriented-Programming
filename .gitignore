@@ -9,3 +9,7 @@
 # Chặn thư mục cấu hình của VS Code hoặc IDE (nếu có)
 .vscode/
 .idea/
+
+# Bỏ qua các file tạm tạo bởi extension Code Runner trong VS Code
+tempCodeRunnerFile.*
+*.exe
