@@ -1,2 +1,3 @@
-#NO PAIN NO GAIN 
-Here I push my code related to OOP 
+![Inamori Kazuo Quote](attachments/3J258JjXWYoE4P7niMjo6.png)
+
+**NO PAIN NO GAIN**
