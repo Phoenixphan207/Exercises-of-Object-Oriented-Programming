@@ -1,3 +1,3 @@
-![Inamori Kazuo Quote](asset/anh.png)
+![Inamori Kazuo Quote](asset/anh.jpg)
 
 **NO PAIN NO GAIN**
