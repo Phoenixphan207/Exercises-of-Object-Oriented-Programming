@@ -11,8 +11,8 @@ private:
     int tin;
     float gpa;
 public:
-    ~SinhVien();
-    
+    virtual ~SinhVien() = default;
+    SinhVien() : mssv(0) , name("") , dc("") , tin(0) ,gpa(0.0) {};
     float get_gpa();
     int get_tin();
 

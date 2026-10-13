@@ -2,7 +2,7 @@
 #define EPS 1e-9
 
 void CaoDang::nhap() {
-    SinhVien:nhap();
+    SinhVien::nhap();
     cout << "Nhap diem thi TN: ";
     cin >> diem;
     while (diem < 0) {
@@ -12,7 +12,7 @@ void CaoDang::nhap() {
 }
 
 void CaoDang::xuat() {
-    SinhVien:xuat();
+    SinhVien::xuat();
     cout << "Diem thi TN: " << diem << endl;
 }
 

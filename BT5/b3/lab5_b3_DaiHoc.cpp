@@ -1,9 +1,9 @@
 #include "lab5_b3_DaiHoc.h"
 #define EPS 1e-9
 void DaiHoc::nhap() {
-    SinhVien:nhap();
+    SinhVien::nhap();
     cout << "Nhap ten luan van: ";
-    getline(cin , luan_van);
+    getline(cin >> ws , luan_van);
 
     cout << "Nhap diem luan van: ";
     cin >> lv;
@@ -14,7 +14,7 @@ void DaiHoc::nhap() {
 }
 
 void DaiHoc::xuat() {
-    SinhVien:xuat();
+    SinhVien::xuat();
     cout << "Ten luan van: " << luan_van << '\n';
     cout << "Diem luan van: " << lv << '\n';
 }

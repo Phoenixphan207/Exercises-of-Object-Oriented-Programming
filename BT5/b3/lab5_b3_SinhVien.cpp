@@ -5,10 +5,8 @@ void SinhVien::nhap() {
     cout << "Nhap MSSV: ";
     cin >> mssv;
 
-    cin.ignore();
-    cin.clear();
     cout << "Nhap ho ten: ";
-    getline(cin , name);
+    getline(cin >> ws, name);
 
     cout << "Nhap dia chi: ";
     getline(cin , dc);
@@ -18,9 +16,9 @@ void SinhVien::nhap() {
     cout << "Diem GPA: ";
     cin >> gpa;
 
-    while (mssv * gpa <= 0) {
+    while (gpa <= 0) {
         cout << "Nhap lai mssv ; gpa: ";
-        cin >> mssv >> gpa;
+        cin >> gpa;
     }
 }
 
@@ -28,12 +26,9 @@ void SinhVien::xuat() {
     cout << "MSSV: " << mssv << '\n';
     cout << "Ten: " << name << '\n';
     cout << "Dia chi: "<< dc << '\n';
-    cout << "Tong so tin chi: " << '\n';
-    cout << "Diem GPA: " << gpa;
-    cout << "Tot nghiep: ";
+    cout << "Tong so tin chi: " << tin << '\n';
+    cout << "Diem GPA: " << gpa << '\n';
     
-    if (SinhVien::tot_nghiep()) cout << "SINH VIEN DUOC TOT NGHIEP !";
-    else cout << "SINH VIEN KHONG DC TOT NGHIEP !!!!!";
 }
 
 float SinhVien::get_gpa() {
